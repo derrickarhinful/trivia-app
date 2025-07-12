@@ -1,0 +1,81 @@
+* {
+  box-sizing: border-box;
+}
+
+.trivia {
+  text-align: center;
+  font-size: 3rem;
+}
+
+.Welcome {
+  padding-left: 27px;
+  color: white;
+  font-size: 2.3rem;
+}
+
+.container {
+  border: 2px solid black;
+  height: 100%;
+  padding-bottom: 30px;
+  width: 700px;
+  margin: auto;
+  margin-top: 10px;
+  border-radius: 40px;
+  background-color: rgba(4, 6, 41, 0.897);
+}
+label {
+  display: flex;
+  color: white;
+  padding-left: 5px;
+  justify-content: center;
+  font-size: 1.4rem;
+  margin-bottom: 5px;
+  font-family: sans-serif;
+}
+select {
+  display: block;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.question-number,
+.difficulty,
+.type-selection,
+.form-control {
+  display: flex;
+  width: 95%;
+  border-radius: 10px;
+  padding-left: 5px;
+  height: 39px;
+  font-size: 1.3rem;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  outline: none;
+}
+
+.start-screen {
+  display: block;
+}
+.startBtn {
+  display: block;
+  background: rgb(37, 37, 219);
+  color: white;
+  width: 115px;
+  height: 40px;
+  cursor: pointer;
+  font-size: large;
+  border: none;
+  border-radius: 5px;
+  margin: auto;
+}
+.startBtn:active {
+  transform: scale(0.9);
+}
+
+@media only screen and (max-width: 800px) {
+  .container {
+    width: 100%;
+  }
+}

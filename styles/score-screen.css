@@ -1,0 +1,34 @@
+.scoreText {
+  display: flex;
+  justify-content: center;
+  margin-top: 20%;
+  margin-bottom: 20%;
+  color: white;
+  font-size: 2.3rem;
+}
+
+.playAgain,
+.try-again {
+  display: block;
+  background: rgb(37, 37, 219);
+  color: white;
+  width: 115px;
+  height: 40px;
+  cursor: pointer;
+  font-size: large;
+  border: none;
+  border-radius: 5px;
+  margin: auto;
+  outline: none;
+}
+.playAgain:active {
+  transform: scale(0.9);
+}
+
+.score-section {
+  display: none;
+}
+
+button {
+  outline: none;
+}

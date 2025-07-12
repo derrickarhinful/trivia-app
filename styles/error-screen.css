@@ -1,0 +1,14 @@
+.error-message {
+  padding-bottom: 40px;
+}
+
+.error-screen {
+  color: white;
+  padding-top: 50px;
+  margin: 20px;
+  display: none;
+}
+
+.try-again:active {
+  transform: scale(0.9);
+}
